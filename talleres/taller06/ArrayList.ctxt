@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ArrayList
+comment0.text=\r\n\ clase\ que\ improvisa\ un\ arrayList\r\n\ \r\n\ @Eduard\ Damiam\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=ArrayList()
+comment2.params=
+comment2.target=int\ getSize()
+comment3.params=e
+comment3.target=void\ addFinal(int)
+comment4.params=index\ e
+comment4.target=void\ addPosicion(int,\ int)
+comment5.params=i
+comment5.target=int\ getElement(int)
+comment6.params=
+comment6.target=void\ copiarArray()
+numComments=7

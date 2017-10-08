@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Taller8
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Taller8\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=stack
+comment1.target=java.util.Stack\ inversa(int[])
+comment2.params=a
+comment2.target=void\ cola2(java.lang.String[])
+comment2.text=public\ static\ void\ cola\ (Queue<String>\ queue){\r\n\ \ \ \ \ \ \ \ Queue<String>\ q\ \=\ new\ LinkedList<String>();\r\n\ \ \ \ \ \ \ \ for(int\ i\ \=\ 0;\ i\ <\ queue.length;i++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Atendiendo\ a"+\ q.remove());\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ //...\r\n}
+comment3.params=string
+comment3.target=int\ polaca(java.lang.String)
+numComments=4
