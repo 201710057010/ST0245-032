@@ -94,7 +94,7 @@ public class LinkedListMauricio {
     {
         if (index ==0){
           first = first.next;
-          size++;
+          size--;
         }
         
         else if (size <= 0 || index > size){
