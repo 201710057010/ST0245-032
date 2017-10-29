@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=TablaHash
+comment0.text=\r\n\ \r\n\ Eduard\ Damiam\ Londo\u00F1o\ y\ Esteban\ Osorio.\r\n\ clase\ para\ la\ tabla\ hash\r\n
+comment1.params=
+comment1.target=TablaHash()
+comment2.params=carpeta
+comment2.target=void\ add(Carpeta)
+comment3.params=carpeta
+comment3.target=java.lang.String\ funcionHash(Carpeta)
+comment4.params=nombre
+comment4.target=void\ search(java.lang.String)
+comment5.params=hash
+comment5.target=void\ searchAux(java.lang.String)
+numComments=6

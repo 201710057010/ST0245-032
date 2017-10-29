@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Carpeta
+comment0.text=\r\n\ clase\ para\ manejar\ las\ carpetas\r\n\ \r\n\ Eduard\ Damiam\ y\ Esteban\ Osorio\r\n
+comment1.params=nombre\ carpetaPadre
+comment1.target=Carpeta(java.lang.String,\ java.lang.String)
+comment2.params=nombre
+comment2.target=Carpeta(java.lang.String)
+numComments=3

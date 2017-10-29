@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Eduard\ Damiam\ y\ Esteban\ Osorio\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ leer()
+comment3.params=read\ key\ input\ x\ original
+comment3.target=void\ leeraux(java.lang.String,\ java.lang.String,\ java.io.BufferedReader,\ int,\ java.lang.String)
+numComments=4
