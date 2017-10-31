@@ -9,9 +9,9 @@ public class TablaHash
     HashMap <String,Carpeta> coleccionCarpetas;
 
     public TablaHash (){
-       coleccionCarpetas=  new HashMap<String,Carpeta>();
+        coleccionCarpetas=  new HashMap<String,Carpeta>();
     }
-    
+
     public  void add(Carpeta carpeta){
         String key = funcionHash(carpeta);
         coleccionCarpetas.put(key,carpeta);
@@ -29,19 +29,20 @@ public class TablaHash
         return hash;
     }
 
-    public  void search (String nombre) throws Exception {
+    public void search (String nombre) throws Exception {
         String hash = nombre.hashCode() + "";
+        String x = hash;
         if (!coleccionCarpetas.containsKey(hash)){
             System.out.println("la carpeta no existe");
         }else{
             int i =1;
             searchAux(hash);
-            if (coleccionCarpetas.containsKey(hash + i)){
+            if (coleccionCarpetas.containsKey(x + i)){
                 while (true){
-                    hash = hash + i;
+                    hash = x + i;
                     searchAux (hash);
                     i++;
-                    if (!coleccionCarpetas.containsKey(hash + i)){
+                    if (!coleccionCarpetas.containsKey(x + i)){
                         break;
                     }
                 }

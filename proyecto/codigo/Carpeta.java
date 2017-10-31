@@ -6,8 +6,8 @@
  */
 public class Carpeta
 {
-    protected String nombre;
-    protected String carpetaPadre;
+    public String nombre;
+    public String carpetaPadre;
     
     Carpeta(String nombre, String carpetaPadre){
       this.nombre= nombre;
